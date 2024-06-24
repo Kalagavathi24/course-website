@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div  class="main">
+        <div class ="navbar">
+            <div class ="icon">
+                <h2 class="logo">Kalaga Info Tech</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    
+                    <li> <a href="home.html">HOME </a></li>
+                    <li> <a href="about.html"> ABOUT </a></li>
+                    <li> <a href="course.html">COURSE</a></li>
+                    <li> <a href="placement.html">PLACEMENT</a></li>
+                    <li> <a href="contact.html">CONTACT </a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" name="" placeholder="type to text">
+                <a href="a"> <button class="btn">Search</button></a>
+            </div>
+        </div>
+        <div class="content">
+            <h1 >Web design & <br> <span>Development</span></br>Course</h1>
+            <p class="par">Web development is the process of building and maintaining the technical aspects of a website. 
+               <br> Web design is the process of creating the visual layout, aesthetics, and user experience of a website.</p>
+
+               <button class="btnn" id="joinBtn">JOIN US</button><br><br>
+
+               <script>
+                   const joinBtn = document.getElementById('joinBtn');
+                   joinBtn.addEventListener('click', function() {
+           alert("Thanks for joining us!!!");
+       });
+               </script>
+               <div class="form">
+                <h2>Login Here</h2>
+                <input type="name" name="text" placeholder="Enter your name">
+                <input type="email" name="email" placeholder="Enter your emial">
+                <input type="password" name="text" placeholder="Enter your password">
+                <button class="btnn" id="loginBtn">Login</button><br><br>
+
+        <script>
+            const contactBtn = document.getElementById('loginBtn');
+            contactBtn.addEventListener('click', function() {
+    alert("Login Successfully!");
+});
+        </script>
+                <p class="link">Don't have an account<br>
+                    <a href="#">Sign up </a> here</a></p>
+
+
+               </div>
+
+        </div>
+
+    
+ </div>
+    
+</body>
+</html>

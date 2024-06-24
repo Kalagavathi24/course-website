@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css"
+</head>
+<body>
+    <h2><strong><head><center>Course registration form</center></head></strong></h2>
+<form>
+  <fieldset>
+    <legend>Registration form:</legend>
+<body style="background-color:pink"></body>
+<table align="center" cellpadding="9"><br>
+<tr><td> Student Name :</td>
+<td><input type="text" id="name" name="name"
+placeholder="enter name"><br>
+</td>
+</tr>
+<tr>
+<td>Email id:</td>
+<td><input type="text" placeholder=" enter email" name="email" required><br>
+</td>
+</tr>
+<tr>
+    <td>Gender :</td>
+    <label><br>
+    <td><input type="radio" value="Male" name="gender">Male<br>
+    <input type="radio" value="Female" name="gender">Female<br>
+    <input type="radio" value="Others" name="Others">Others<br>
+    </td>
+    </tr>
+</tr>
+<tr>
+<td>Mobile Number:</td>
+<td>
+<input type="tel" id="Mobile number" name="mobile"
+placeholder="123-45-678" required><br>
+</td>
+</tr>
+<tr>
+<td>Current Address:</td>
+<td><textarea rows="4" cols="25" placeholder="current address" value="address" required>
+</textarea>
+</td></tr>
+<tr>
+<td>City :</td>
+<td><input type="text" id="name" name="name"
+placeholder="enter city"><br>
+</td>
+</tr>
+<tr>
+<td>State :</td>
+<label for="state"></label>
+<td><select name="State" id="state">
+<option value="Tamil Nadu">Tamil Nadu</option>
+<option value="Kerala">Kerala</option>
+<option value="karnataka">Karnataka</option>
+<option value="Andhra pradesh">Andhra pradesh</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Available Course:</td>
+<td><label for="Course"></label>
+<select name="Course" id="course">
+  <option value="C">C</option>
+  <option value="C++">C++</option>
+  <option value="Python">Python</option>
+  <option value="Java">Java</option>
+  </select>
+  </td>
+  </tr>
+<tr>
+<td>Course Duration:</td>
+<td><input type="radio" id="cd" name="cd" value="cd">
+<label for="cd">2 Months</label><br>  
+  <input type="radio" id="cd" name="cd" value="cd">
+  <label for="cd">3 Months</label><br>
+  <input type="radio" id="cd" name="cd" value="HTML">
+  <label for="cd">6 Months</label><br>
+  </td>
+  <button class="btnn" id="loginBtn">SUBMIT</button><br><br>
+
+  <script>
+      const contactBtn = document.getElementById('loginBtn');
+      contactBtn.addEventListener('click', function() {
+alert("Thanks for your response!");
+});
+  </script>
+
+</label>
+</table>
+</fieldset>
+</form>
+
+    
+</body>
+</html>

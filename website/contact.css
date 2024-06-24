@@ -1,0 +1,16 @@
+.btnn{
+    width: 200px;
+    height: 40px;
+    background: skyblue;
+    border: none;
+
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
